@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Error from "./components/Error";
 import RestaurantPage from "./components/RestaurantPage";
-import Shimmer from "./components/shimmer";
+// import Shimmer from "./components/shimmer";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import Cart from "./components/Cart";
@@ -53,7 +53,7 @@ const appRouter = createBrowserRouter([
       {
         path: "/grocery",
         element: (
-          <Suspense fallback={<Shimmer />}>
+          <Suspense>
             <Grocery />
           </Suspense>
         ),
