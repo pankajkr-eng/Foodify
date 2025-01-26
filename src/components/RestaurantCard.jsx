@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unsafe-optional-chaining */
 import { CDN_URL } from "../utils/constants";
 
 const RestaurantCard = (props) => {
